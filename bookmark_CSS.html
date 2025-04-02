@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles to Hyperlink.</title>
+    <style>
+        .hyperlink {
+
+            text-decoration: none;
+        }
+
+        .hyperlink:link {
+            color: red;
+
+        }
+
+        .hyperlink:visited {
+            color: palevioletred;
+
+        }
+
+        .hyperlink:hover {
+            color: blue;
+        }
+
+        .hyperlink:active {
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;"><a id="Quay về trang đầu">HTML và siêu liên kêt</a></h1>
+    <h2>Mục lục</h2>
+    <a href="#Các thuật Ngữ" class="hyperlink">1.Các thuật ngữ<br></a>
+    <a href="#Các thẻ cơ bản" class="hyperlink">2.Các thẻ cơ bản<br></a>
+    <a href="#Phân loại đường dẫn" class="hyperlink">3.Phân loại đường dẫn</a>
+    <a href="#Siêu liên kết" class="hyperlink"><br>4.Siêu liên kết<br></a>
+    <a id="Các thuật ngữ">1.Các thuật ngữ</a><br>
+    <b>TCP/IP:</b> Transmission Control Protocol/ Internet Protocol
+    <br><b>HTML:</b> HyperText Markup laguage<br>
+    <b>WWW:</b> World Wide Web<br>
+    <b>URL:</b> Iniform Resource Locator
+    <a href="#Quay về đầu trang" class="hyperlink"><br>
+        <p style="text-align: center;">Quay về đầu trang</p>
+    </a>
+    <a id="Các thẻ cơ bản">2.Các thẻ cơ bản</a><br>
+    <b>hrml:</b> mô tả tài liệu html.<br>
+    <b>head:</b> mô tả phần đầu của trang web.<br>
+    <b>title:</b> mô tả tiêu đề.<br>
+    <b>body:</b> mô tả phần thân của trang web.<br>
+    <ul>-Thuộc tính <b>bgcolor</b>(backgroundcolor): mô tả màu nền của trang web.</ul><br>
+    <b>h1-h6</b>(heading lever 1 - heading lever 6): mô tả để mục mức 1 đến mức 6.<br>
+    <b>p</b>(paragraph): Đánh dấu bắt đầu một đoạn văn mới<br>
+    -Thuộc tính <b>align</b>: mô tả cách canh chỉnh văn bản. Mặc định là canh trái.<br>
+    <ul>
+        +<b>left</b>(default): canh trái<br>+<b>right</b>: canh phải.<br>+<b>center</b>: canh giữa.<br>+<b>justify</b>:
+        canh đều hai bên.<br>
+
+    </ul>
+    <b>br</b>(break): Xuống dòng mới trong cùng một đoạn.<br><b>a</b>(adress): Mô tả liên kết.<br>
+    <ul>
+        -Thuộc tính <b>href</b>(HyperText Refernce): chứa đường dẫn sẽ di chuyển đến.<br>-Thuộc tính <b>name:</b> định
+        nghĩa tên cho liên kết trong.<br>
+
+    </ul>
+    <a href="#Quay về trang đầu" class="hyperlink">
+        <p style="text-align: center;">Quay về trang đầu</p>
+    </a>
+    <a id="Phân loại đường dẫn">3.Phân loại đường dẫn</a><br>Có hai loại đường dẫn:<br>1.Đường dẫn tương đối<br>
+    <ul><u>Ví dụ:</u> ../img/quangcao.jpg<br></ul>2. Đường dẫn tuyệt đối<br>
+    <ul><u>Ví dụ:</u> D:/baitapHDJ/img/quangcao.jpg<br></ul>
+    <a href="#Quay về trang đầu" class="hyperlink">
+        <p style="text-align: center;">Quay về trang đầu</p>
+    </a><a id="Siêu liên kết">4. Siêu liên kết</a><br>Gồm hai loại liên kết:<br>1. liên kết trong<br>
+    <ul><u>Ví dụ:</u>&lt;a href="#chuong1"&lt;Đi đến chương 1&lt;/a&gt;</ul><br>2. Liên kết ngoài<br>
+    <ul><u>Ví dụ:</u>&lt;a href="GiaoTrinhHDJ.html"&gt;Giáo Trình HDJ&lt;/a&gt;</ul><br>3. Kết hợp liên kết trong và
+    liên kết ngoài<br>
+    <ul><u>Ví dụ:</u>&lt;a href="GiaoTrinhHDJ.html#chuong1"&gt;Giáo trình HDJ - Chương 1&lt;/a&gt;</ul>
+    <a href="#Quay về trang đầu" class="hyperlink">
+        <p style="text-align: center;">Quay về trang đầu</p>
+    </a>
+
+    <a href="mailto:ngocch.24ce@vku.udn.vn" class="hyperlink">Gửi mail đến tác giả</a>
+
+
+</body>
+
+</html>

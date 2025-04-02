@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .header {
+            background-color: crimson;
+            font-weight: bold;
+            height: 130px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50;
+        }
+
+        .left {
+            background-color: greenyellow;
+            font-weight: bold;
+            width: 25%;
+            height: 400px;
+        }
+
+        .middle {
+            font-weight: bold;
+            width: 50%;
+            height: 400px;
+        }
+
+        .right {
+            font-weight: bold;
+            background-color: paleturquoise;
+            width: 25%;
+            height: 400px;
+        }
+
+        .center {
+            display: flex
+        }
+
+        .booter {
+            font-weight: bold;
+            height: 40;
+            background-color: gray;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS using Grid</h1>
+    <p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns
+        will stack on top of each other.<br>Resize the browser window to see the responsive effect.</p>
+    <div class="header">header</div>
+    <div class="center">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">right</div>
+    </div>
+    <div class="booter">booter</div>
+</body>
+
+</html>

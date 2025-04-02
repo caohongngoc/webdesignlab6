@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu {
+            background-color: rgb(48, 48, 243);
+            border-radius: 15px;
+
+
+
+        }
+
+        .content {
+            display: flex;
+
+            padding: 18px;
+
+
+
+
+        }
+
+        a {
+            margin: 10px;
+            font-size: large;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .text-btn {
+            margin-top: -80px;
+            padding: 12px;
+            float: right;
+
+
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+        }
+
+        button {
+            padding: 10px;
+            width: 70px;
+            border-radius: 17px;
+            font-weight: bold;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            background-color: grey;
+        }
+
+        @media screen and (max-width: 800px) {
+            .text-btn {
+                margin-top: -20px;
+                float: left;
+
+            }
+
+            .menu {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="content">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact us</a>
+
+        </div>
+        <div class="text-btn">
+            <input type="text" placeholder="Search">
+            <button>Go</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
